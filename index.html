@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="timer">
+            <h1 id="Hours">00:</h1>
+            <h1 id="minutes">00:</h1>
+            <h1 id="seconds">00</h1>
+        </div>
+        <div class="btn">
+            <img src="./images/plug-and-play.png" alt="" class="start" onclick="updateTime()">
+        </div>
+        <div class="footer">
+            <img class="stop" src="./images/stop.png" alt=""onclick="stopTimer()">
+            <img class = "reset" src="./images/cycle.png" alt="" onclick="resetTimer()" >
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    background: linear-gradient(18deg,lightblue,black);
+    color: lightblue;
+    font-family: "Poppins",sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer h1{
+    font-size: 3rem;
+}
+/* #Hours,#minutes,#seconds{
+    background-color: black;
+} */
+img{
+    width: 50px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    width: 90px;
+}
+.footer .stop{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+.footer .reset{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
